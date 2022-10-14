@@ -1,0 +1,136 @@
+
+notas 7/10/22
+variables en javasccript
+las variables tienen nombre y contienen un valor 
+
+REGLAS nombre
+buenas practicas
+las variabls se empiezan con minusculas (camelcase)
+
+PALABRAS RESERVADAS
+accion o lenguaje de programacion
+
+let
+const
+
+al declarar variables se inicializan 
+
+let se puede declarar despues 
+
+const se tiene que declarar desde un inicio con el 
+signo =
+las variables siempre deben tener un nombre unico
+
+con console.log se muestra en la consola lo que esta
+en las variables
+ diferencia entre let y const
+
+ mutacion de valor, reasignacion 
+
+ tipos de valor de variables en javasccript
+ simples  y compuestos
+ //valores primitivos
+//string
+//number
+//boolean
+//null
+//undefined
+
+
+
+10/10/22
+
+funciones (acciones que se le piden al lenguaje )
+
+funciones definidas o implementadas 
+por el programador 
+
+se declaran con las PALABRAS RESERVADAS
+
+"function"
+
+ejemplo 
+tiene un nombre "add"
+los parentesis engloban parametros que se
+declaran parametros (variables)funcionan como variable
+las llabes de bloquqe engloban el contenido de la funcion 
+describe que va ahcer la funcion 
+return es el retorno de la operacion realizada
+en la funcion 
+
+function add (a, b){
+return a + b;
+}
+el resto (%) entrega el residuo de una division 
+lo que sobra de una division 
+en las funciones se utilizan operadores 
+aritmeticos
++ - / * % 
+operadores adicionales (++) (--)
+incremento(++)
+las variables con incremento
+agrega el valor de +1 a la variable 
+(--)
+resta 1
+
+operadores logicos and (&&) boleanos
+para ecpresiones verdaderas y falsas
+conjuncion 
+TABLA DE VERDAD
+verdadero  verdadero = verdadero
+verdadero falso = falso
+falso verdadero = falso
+falso falso= falso 
+
+OPERADOR LOGICO or (||) disyuncion 
+
+verdadero verdadero = verdadero 
+verdadero falso = verdadero
+falso verdadero = verdadero
+falso falso = falso
+
+
+OPERADOR DE NEGACION Not (!)
+
+anteponiendo a una expresion  se convierte 
+
+expresio not 
+verdadero falso 
+falso verdadero 
+
+la necacion ! afecta dependiendo de 
+donde este la negacion 
+!(x,y)
+(!X , y)
+
+OPERADORES DE COMPARACON 
+
+(=) asignacion de valor a una variable
+
+(= =)comparacion igual igual "compara valor de 
+un lado al del otro lado " gerenra un resultado boleano 
+verdadero o falso 
+
+(= = =) etrictamente igual 
+
+(!=) "no igual a" devuelve true si los
+operadores no son iguales 
+
+(!==)estrictamente no igual 
+
+> mayor que devuelve true si el operador 
+de la izquierda es mayor que la derecha
+
+>= mayor igual que 
+< menor que 
+<= menor o igual que
+
+CLASE 11/10/22
+ extensiones
+Eslint
+Auto close tag
+Live Server 
+Auto complete tag
+Auto rename
+
+12/10/22
