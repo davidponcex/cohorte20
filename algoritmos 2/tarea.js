@@ -6,15 +6,59 @@ let num3 = parseInt (prompt ("inserte numero 3:"));
 
 
 
-function numeromayor ( num1, num2, num3 ){
+function numero ( num1, num2, num3 ){
     
     
 if ( (num1 == num2 ) && (num1 == num3)){
    
 return (" LOS TRES NUMEROS SON IGUALES" );
 
-} else if ((num1 > num2) && (num1 > num3)){
+} else if ((num1 > num2) && (num2 > num3)){
+
+   return (num1);
+   
+     
+}
+/*
+else if ((num1 > num3) && (num3 > num2)){
+
+  
+}
+
+else if ((num2 > num1) && (num1 > num3)){
+
  
+
+}
+
+else if ((num2 > num3) && (num3 > num1)){
+
+    
+}
+
+else if ((num3 > num1) && (num1 > num2)){
+
+   
+
+}
+
+
+else  ((num3 > num2) && (num2 > num1))
+{
+
+ 
+
+}*/
+}
+let valores = numero (num1, num2, num3);
+
+console.log(valores);
+
+
+
+
+
+ /*
     return  ("NUMERO MAYOR=" + num1);
 
 } else if ((num2 > num1) && (num2 > num3)){
@@ -30,6 +74,7 @@ return (" LOS TRES NUMEROS SON IGUALES" );
 console.log (numeromayor( num1, num2, num3));
 
 
+/*
 
 function numeromedio ( num1, num2, num3 ){
 
@@ -84,4 +129,4 @@ return (" LOS TRES NUMEROS SON IGUALES" );
 
         
 
-console.log (numeromenor( num1, num2, num3));
+console.log (numeromenor( num1, num2, num3));*/

@@ -1,0 +1,30 @@
+p {
+
+color: lightskyblue;
+
+}
+
+* {
+    /*selector universal*/
+    color: cornflowerblue;
+}
+
+em {
+    color: black;
+}
+/* selector de clase*/
+.titulo { 
+    color: black;
+}
+
+
+.bl {
+    float: right;
+    background-color: rgb(231, 130, 181);
+    color: black;
+}
+/*selector de id*/
+#selector{ 
+color: blue;
+
+}
