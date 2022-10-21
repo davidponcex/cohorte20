@@ -1,12 +1,35 @@
-* negro {
-    background-color: black;
+
+.titulo {
+
+}
+.fondo {
+    background-color: rgba(235, 156, 229, 0.411);
 }
 
-.titulo { 
-    color: rgb(16, 44, 199);
+
+p {
+    color: rgb(233, 161, 229);
+    font-style: oblique;
 }
 
-#fondo{
-background-color: black;
+h1,h2,h3 {
+    color: rgb(236, 16, 189);
 }
 
+.setlist {
+   font-style: italic;
+   font-size: large;
+}
+.imagen {
+     float: right;
+    color: deeppink;
+}
+.footer { 
+    color: fuchsia;
+}
+.lista{
+    color: lightpink;
+}
+.nav {
+    color: aqua;
+}

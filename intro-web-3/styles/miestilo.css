@@ -19,8 +19,8 @@ em {
 
 
 .bl {
-    float: right;
-    background-color: rgb(231, 130, 181);
+    float: left;
+    background-color: rgb(236, 195, 215);
     color: black;
 }
 /*selector de id*/
