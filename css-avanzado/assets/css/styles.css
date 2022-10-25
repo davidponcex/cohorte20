@@ -1,0 +1,16 @@
+
+.parrafo1 {
+    font-family: cursive;
+    font-weight: 300;
+}
+
+.parrafo2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+/* root em 
+rem 
+toma en cuenta el tamaño de fuente  fijado por el 
+navegador
