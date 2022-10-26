@@ -1,0 +1,88 @@
+/* sobreescribir propiedades del navegador */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.padre{
+    border:3px dashed green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+
+     height: 200px; 
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+.cuadro{
+    width: 80px;
+    height: 80px;
+}
+
+.uno{
+    background-color: cyan;
+
+}
+
+.dos{
+    background-color: cadetblue;
+
+}
+
+.tres{
+    background-color: rgb(81, 228, 228);
+
+}
+
+/* todos tienen flex start por  defecto */
+/* aplica en forma de row */
+/* justify content - horizontal
+align items vertical */
+
+/* en forma de columna 
+justify content se vuelve vertical
+align items se vuelve horizontal */
+
+/* MEDIA QUERY */
+/* se pueden utilizar dentro de un elemento */
+/* @media (){
+
+}
+es una condicional en caso de que se cumpla 
+la condicion se aplica lo que hay dentro de la regla
+*/
+/* RESOLUCION */
+/* 450px celular
+   800px tablet
+   1200px desktop */
+
+@media (max-width: 800px) {
+    .padre{
+
+        background-color: blueviolet;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    h3{
+        display: none;
+    }
+    
+   
+}
