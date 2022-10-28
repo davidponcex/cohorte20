@@ -4,3 +4,8 @@
 
 /* para la altura es vh
    para el ancho es vw */
+
+   .imagen {
+    border-color:  red;
+    height: 10rem;
+   }
