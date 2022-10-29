@@ -1,0 +1,22 @@
+/* encabezado */
+.color1 {
+    background-color: rgb(47, 112, 233)
+    
+}
+/* encabezado */
+
+/* barra inicio */
+
+.color2 {
+    background-color: gray;
+}
+
+.contorno{
+    margin-bottom: -9px;
+    padding: 5px;
+    text-align:justify;
+}
+
+.margenfooter{
+    margin-top: 5px;
+}
