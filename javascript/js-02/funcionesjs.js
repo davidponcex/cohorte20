@@ -109,11 +109,37 @@ llama instancia*/
 
 let miObjeto = {
     nombre: "David",
-    edad: 29
+    edad: 29,
+    datos: function (){
+        
+        let mensaje = "tu nombre es: " + this.nombre;
+        console.log (mensaje);
+        mensaje += "tienes" + this.edad + " años";
+        console.log(mensaje);
+    }
 };
 /* instancia */
-let mensaje = "tu nombre es: " + miObjeto.nombre;
-console.log (mensaje);
-mensaje += "tienes" + miObjeto ["edad"] + " años";
-console.log(mensaje)
 
+miObjeto.datos();
+/* CONSTRUCTOR */
+/* para crear un contstructo se define una variable y es como una 
+funcion anonima, dentro de esa funcion se construye el objeto
+ */
+let constructor = function (){
+    let objPersona = {
+        nombre: "persona X ",
+        nss: 15432,
+        datosPersona: function (){
+            let msj = "eres " + this.nombre + "numero nss es " + this.nss;
+            console.log(msj);
+        },
+        otroMetodo: function(parametro){
+            let numero = 8;
+            console.log("la suma es : "+ (numero + parametro));
+        }
+    };
+    return objPersona;  
+};
+let varObjReg = constructor()//se creo la variable llamada objeto
+varObjReg.datosPersona();
+varObjReg.otroMetodo(5);

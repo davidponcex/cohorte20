@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+   <!--  <h1>DATOS PERSONALES</h1>
+    <form id="formulario">
+        nombre <input type="text" name="Nombre" value="x"> <br>
+        apellido <input type="text" Apellido="apellido" value="Z">
+
+    </form>
+    <button onclick="mostrarValores()">Mostrar</button>
+    <div id="valores"></div>
+
+    <script>
+        function mostrarValores(){
+            let Formulario = document.forms["formulario"]
+            let texto = "";
+            for (let elemento of formulario){
+                texto += elemento.value + "<br/>";
+            }
+            document.getElementById("valores").innerHTML = texto;
+        }
+      
+    </script> -->
+
+   <!--  <h1>ejemplo dom document.write</h1>
+    <h2>otro mensaje</h2>
+    <button onclick="cambio()">Mostrar</button>
+    <script>
+        function cambio(){
+
+            document.write("saludo")
+        }
+    </script> -->
+    <h1>Dom imagenes </h1>
+    <button onclick="cambiar()">cambio</button>
+    <br>
+    <img id="imagen " src="./93769970_2634817733415903_7986127220282228736_n.jpg" alt="">
+    <script>
+        function cambiar() {
+            document.getElementById('imagen');     
+        }
+    </script>
+
+
+
+</body>
+</html>
