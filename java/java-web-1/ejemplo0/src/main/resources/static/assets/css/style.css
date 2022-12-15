@@ -1,0 +1,11 @@
+.altura-img{
+    height: calc(100vh - 56px);
+}
+
+/* para la altura es vh
+   para el ancho es vw */
+
+   .imagen {
+    border-color:  red;
+    height: 10rem;
+   }
