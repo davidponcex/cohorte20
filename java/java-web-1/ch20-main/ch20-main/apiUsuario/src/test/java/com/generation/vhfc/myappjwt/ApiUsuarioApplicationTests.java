@@ -1,11 +1,10 @@
-package com.generation.dplca.appdb;
+package com.generation.vhfc.myappjwt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-
-class Ejemplo03JpaApplicationTests {
+class ApiUsuarioApplicationTests {
 
 	@Test
 	void contextLoads() {
